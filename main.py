@@ -4,7 +4,7 @@ from bot import bot_router
 from admin import admin_router
 from database import Base, engine
 # TODO токен
-bot = Bot(token="7315969917:AAG2Um1dFz6m7v6KZr4Arg5VxhfWN7pNU78")
+bot = Bot(token="token")
 dp = Dispatcher()
 Base.metadata.create_all(bind=engine)
 
